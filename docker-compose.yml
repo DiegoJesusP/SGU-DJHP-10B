@@ -36,7 +36,7 @@ services:
   frontend:
     image: client:latest
     build:
-      context: ./sguclient
+      context: ./sgucliente
       args:
         VITE_API_HOST: backend
         VITE_API_PORT: 8080
