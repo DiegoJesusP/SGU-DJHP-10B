@@ -16,7 +16,7 @@ services:
   backend:
     image: server:latest
     build:
-      context: ./server
+      context: ./sguserver
     container_name: sgu-server
     environment:
       SERVER_PORT: 8080
@@ -36,7 +36,7 @@ services:
   frontend:
     image: client:latest
     build:
-      context: ./client
+      context: ./sguclient
       args:
         VITE_API_HOST: backend
         VITE_API_PORT: 8080
