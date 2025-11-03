@@ -1,0 +1,13 @@
+package adj.demo.sguserver;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SguDjhpServerApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SguDjhpServerApplication.class, args);
+    }
+
+}
